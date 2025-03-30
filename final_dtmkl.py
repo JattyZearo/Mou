@@ -622,8 +622,8 @@ if __name__ == "__main__":
     multi_results = {C: {} for C in C_values}
     A_T_results = {C: {} for C in C_values}
     A_T_list = ['A','T','AT']
-    compare = 0 #要不要对比试验
-    SVM_A = 1 #要不要基础SVM对比
+    compare = 1 #要不要对比试验
+    SVM_A = 0 #要不要基础SVM对比
     for m in m_test:
         for C in C_values:
             print(f"\n===== Testing C={C} =====")
